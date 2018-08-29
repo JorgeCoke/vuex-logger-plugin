@@ -1,6 +1,8 @@
 # Vuex Logger Plugin
 
-🖍 Simplest Vuex Mutation Logger Plugin
+🖍 Simplest & Fastest Vuex Mutation Logger Plugin
+
+Mutations are logged in the format of `'MUTATION {mutation.type} , {mutation.payload}'`
 
 ## Install
 
