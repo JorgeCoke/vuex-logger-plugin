@@ -26,3 +26,9 @@ export default new Vuex.Store({
   plugins: debug ? [VuexLoggerPlugin] : [],
 });
 ```
+
+## Demo
+
+Here is a quick example demo with a simple Router Store
+
+![demo](https://raw.githubusercontent.com/JorgeCoke/vuex-logger-plugin/master/demo.gif)
