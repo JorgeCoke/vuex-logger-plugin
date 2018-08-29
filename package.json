@@ -1,9 +1,10 @@
 {
   "name": "vuex-logger-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simplest Vuex Mutation Logger Plugin",
-  "main": "index.js",
+  "main": "index.min.js",
   "scripts": {
+    "build": "uglifyjs index.js --compress --mangle -o index.min.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/JorgeCoke/vuex-logger-plugin/issues"
   },
-  "homepage": "https://github.com/JorgeCoke/vuex-logger-plugin#readme"
+  "homepage": "https://github.com/JorgeCoke/vuex-logger-plugin#readme",
+  "devDependencies": {
+    "uglify-js": "^3.4.8"
+  }
 }

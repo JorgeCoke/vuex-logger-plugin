@@ -1,4 +1,4 @@
-export default function (store) {
+module.exports = function (store) {
     store.subscribe(function (mutation, state) {
         console.log(
             '%c MUTATION ' + mutation.type + ' ',

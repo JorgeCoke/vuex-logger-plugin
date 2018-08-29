@@ -1,0 +1,1 @@
+module.exports=function(o){o.subscribe(function(o,e){console.log("%c MUTATION "+o.type+" ","color: #03A9F4; font-weigth: bold; background-color: #eee",o.payload)})};
